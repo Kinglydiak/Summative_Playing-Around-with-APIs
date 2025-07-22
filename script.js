@@ -5,7 +5,7 @@ form.addEventListener('submit', async (e) => {
   e.preventDefault();
 
   const city = document.getElementById('city').value.trim();
-  const apiKey = "a16275b5486a504485e1cdf94171e316"; // My weather API
+  const apiKey = "ec94dbcb231fef60fcb4e7a74a5cca2a"; // My weather API
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
