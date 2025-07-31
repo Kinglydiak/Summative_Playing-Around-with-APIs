@@ -13,7 +13,7 @@ This is a Dockerized Flask web server that displays live weather information bas
 
 Web01   - Standalone container  (http://localhost:8080)
 Web02   - Standalone container  (http://localhost:8081)
-Load Balancer - HAProxy distributing traffic  (http://localhost:8082)
+Load Balancer - HAProxy distributing traffic  (http://localhost:8083)
 
 # Resources used
 
